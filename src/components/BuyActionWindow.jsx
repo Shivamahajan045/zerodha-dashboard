@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 import axios from "axios";
-const API = import.meta.env.VITE_API_URL;
+const API = "https://zerodha-backend-avg2.onrender.com";
 
 import GeneralContext from "./GeneralContext";
 
